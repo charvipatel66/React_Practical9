@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function TemperatureConverter() {
+function TemperatureConvert() {
   const [temperature, setTemperature] = useState("");
   const [unit, setUnit] = useState("C");
   const [result, setResult] = useState("");
@@ -113,4 +113,4 @@ function TemperatureConverter() {
   );
 }
 
-export default TemperatureConverter;
+export default TemperatureConvert;
